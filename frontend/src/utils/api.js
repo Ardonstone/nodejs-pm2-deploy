@@ -138,6 +138,6 @@ class Api {
       .then(getResponse)
   }
   }
-  const api = new Api('https://api.mashkina-sixseven.nomorepartiessbs.ru');
+  const api = new Api('/api');
 
   export default api;
