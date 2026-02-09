@@ -22,7 +22,7 @@ app.get('/crash-test', () => {
 // Только для локальных тестов. Не используйте это в продакшене
 // app.use(cors())
 app.use(cors({
-  origin: 'httpы://api.mashkina-sixseven.nomorepartiessbs.ru',
+  origin: 'https://api.mashkina-sixseven.nomorepartiessbs.ru',
   credentials: true,
 }));
 app.use(express.json());
