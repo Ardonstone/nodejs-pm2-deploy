@@ -7,7 +7,7 @@ const {
 module.exports = {
   apps: [{
     name: 'api-service',
-    script: './app.js',
+    script: './dist/app.js',
   }],
 
   deploy: {
